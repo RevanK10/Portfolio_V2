@@ -3,8 +3,11 @@ A personal developer portfolio showcasing software engineering projects, technic
 
 Features:
 Clean landing page layout built with HTML and CSS.
+
 Highlights core projects - Godot fantasy FPS game, financial stock analysis tool, and interactive Slack bot.
+
 Smooth-scrolling navigation bar linking directly to work experience, project details, skills, and contact sections.
+
 Integrated professional links (GitHub & LinkedIn).
 
 Run it:
