@@ -1,3 +1,11 @@
-This portfolio site is a minimalistic version of my portfolio. The site include some of my work, contact information, and an about me section.
+## Portfolio V2 - Revan
+A personal developer portfolio showcasing software engineering projects, technical skills, and background.
 
-Each of my projects have a link to their Github webpage, and an overview of the project. For my contact, I have included my LinkedIn and Github profiles.
+Features:
+Clean landing page layout built with HTML and CSS.
+Highlights core projects - Godot fantasy FPS game, financial stock analysis tool, and interactive Slack bot.
+Smooth-scrolling navigation bar linking directly to work experience, project details, skills, and contact sections.
+Integrated professional links (GitHub & LinkedIn).
+
+Run it:
+Website is live on Github Pages.
