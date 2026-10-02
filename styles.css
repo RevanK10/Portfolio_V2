@@ -1,12 +1,14 @@
 :root {
-  --bg-color: #0f172a;
-  --card-bg: #1e293b;
-  --text-main: #f8fafc;
-  --text-muted: #94a3b8;
-  --accent: #38bdf8;
-  --accent-hover: #0284c7;
-  --border-color: #334155;
-  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --bg-color: #000000;
+  --card-bg: #111111;
+  --text-main: #ffffff;
+  --text-muted: #bdbdbd;
+  --maroon: #6e000b;
+  --maroon-hover: #8f0010;
+  --accent: #e5394d;
+  --accent-hover: #8f0010;
+  --border-color: #3a0a10;
+  --font-family: Arial, sans-serif;
   --max-width: 1100px;
   --transition: all 0.3s ease;
 }
@@ -57,15 +59,15 @@ section {
   left: 0;
   width: 50%;
   height: 3px;
-  background-color: var(--accent);
+  background-color: var(--maroon);
   border-radius: 2px;
 }
 
 .btn {
   display: inline-block;
   padding: 0.8rem 1.6rem;
-  background-color: var(--accent);
-  color: #0f172a;
+  background-color: var(--maroon);
+  color: #fff;
   font-weight: 600;
   border-radius: 6px;
   transition: var(--transition);
@@ -74,7 +76,7 @@ section {
 }
 
 .btn:hover {
-  background-color: var(--accent-hover);
+  background-color: var(--maroon-hover);
   color: #fff;
   transform: translateY(-2px);
 }
@@ -83,8 +85,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgba(15, 23, 42, 0.9);
-  backdrop-filter: blur(10px);
+  background-color: var(--maroon);
   border-bottom: 1px solid var(--border-color);
   z-index: 1000;
 }
@@ -99,7 +100,7 @@ nav {
 .logo {
   font-size: 1.25rem;
   font-weight: 700;
-  color: var(--accent);
+  color: #fff;
 }
 
 .nav-links {
@@ -109,12 +110,12 @@ nav {
 }
 
 .nav-links a {
-  color: var(--text-muted);
+  color: #fff;
   transition: var(--transition);
 }
 
 .nav-links a:hover {
-  color: var(--accent);
+  color: #ffb3bb;
 }
 
 #hero {
@@ -124,15 +125,6 @@ nav {
 
 .hero-content {
   max-width: 800px;
-}
-
-.hero-tag {
-  color: var(--accent);
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 0.9rem;
 }
 
 .hero-title {
@@ -163,17 +155,17 @@ nav {
 
 .project-card:hover {
   transform: translateY(-5px);
-  border-color: var(--accent);
+  border-color: var(--maroon-hover);
 }
 
 .project-image {
   width: 100%;
   height: 200px;
-  background-color: #334155;
+  background-color: var(--maroon);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--text-muted);
+  color: #fff;
   font-weight: 500;
 }
 
@@ -201,16 +193,20 @@ nav {
 }
 
 .project-link {
-  color: var(--text-main);
+  color: #fff;
+  background-color: var(--maroon);
+  padding: 0.5rem 0.8rem;
+  border-radius: 4px;
   font-weight: 600;
   font-size: 0.9rem;
   display: inline-flex;
   align-items: center;
   gap: 0.3rem;
+  transition: var(--transition);
 }
 
 .project-link:hover {
-  color: var(--accent);
+  background-color: var(--maroon-hover);
 }
 
 .about-layout {
@@ -234,15 +230,13 @@ nav {
 
 .skill-tag {
   background-color: var(--card-bg);
-  border: 1px solid var(--border-color);
   padding: 0.4rem 0.8rem;
-  border-radius: 4px;
   font-size: 0.85rem;
   color: var(--text-main);
 }
 
 footer {
-  border-top: 1px solid var(--border-color);
+  border-top: 1px solid var(--maroon);
   padding: 4rem 0 2rem;
   text-align: center;
 }
@@ -271,12 +265,15 @@ footer {
 }
 
 .social-links a {
-  color: var(--text-muted);
+  color: #fff;
+  background-color: var(--maroon);
+  padding: 0.5rem 0.9rem;
+  border-radius: 4px;
   transition: var(--transition);
 }
 
 .social-links a:hover {
-  color: var(--accent);
+  background-color: var(--maroon-hover);
 }
 
 .copyright {
